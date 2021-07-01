@@ -1,0 +1,19 @@
+python3 -u train.py  \
+--batch_size 2  \
+--seq_len 2  \
+--num_workers 8  \
+--learning_rate 0.0001  \
+--dropout_rate 0.5  \
+--n_epochs 100  \
+--GPUs 1  \
+--checkpoint ''  \
+--save_freq 50  \
+--val_freq 1  \
+--logdir 'log_kings_resnet/resnet18'  \
+--dataset 'CambridgeLandmarks'  \
+--data_dir '/home/jason/mem_fs/CambridgeLandmarks'  \
+--scene 'KingsCollege' \
+--sx 0  \
+--sq -3  \
+--normalize_pose 0  \
+--seed 10

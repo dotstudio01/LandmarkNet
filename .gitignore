@@ -1,0 +1,11 @@
+*.*
+!.gitignore
+!*.py
+!*.md
+!*.sh
+!*.txt
+!*.pkl
+log*/
+results*/
+mcl_data*/
+opensfm*/
